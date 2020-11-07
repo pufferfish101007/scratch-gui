@@ -5,7 +5,6 @@ install:
 - npm install
 - npm update
 - cd node_modules/scratch-vm && ln -s $(npm root)/google-closure-library ../closure-library --force && npm --production=false install && cd -
-- npm audit fix
 - npm run build
 deploy:
   provider: pages
