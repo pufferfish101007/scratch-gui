@@ -5,8 +5,6 @@ install:
 - npm install
 - npm update
 - npm build
-- npm run i18n:src
-- npm run i18n:push
 deploy:
   provider: pages
   skip_cleanup: true
