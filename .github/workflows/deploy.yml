@@ -14,4 +14,6 @@ jobs:
           node-version: 8
       - run: npm install
       - run: npm run build
+      - run: git config --global user.email "PufferfishScratch@gmail.com"
+      - run: git config --global user.name "Pufferfish101007"
       - run: npm run deploy
