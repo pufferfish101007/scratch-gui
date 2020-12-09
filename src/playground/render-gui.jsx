@@ -7,10 +7,8 @@ import GUI from '../containers/gui.jsx';
 import HashParserHOC from '../lib/hash-parser-hoc.jsx';
 import log from '../lib/log.js';
 
-import addonTest from "//cdn.jsdelivr.net/gh/pufferfish101007/ScratchAddons@editor-debugger/addons/editor-debugger/userscript.js";
-
 const onClickLogo = () => {
-    addonTest();
+    alert("hello there");
 };
 
 const handleTelemetryModalCancel = () => {
